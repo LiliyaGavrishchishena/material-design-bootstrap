@@ -1,0 +1,31 @@
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+#intro {
+  background: url(../img/fall.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.top-nav-collapse {
+  background-color: #1c2331;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1c2331;
+  }
+}
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
